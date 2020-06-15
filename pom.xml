@@ -15,33 +15,5 @@
 			<scope>test</scope>
 		</dependency>
 			</dependencies>
-		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
-	<build>
-		<plugins>
-			<plugin>
-	
-    <artifactId>maven-deploy-plugin</artifactId>
-    <version>3.0.0-M1</version>
-				<configuration>
-					<deployAtEnd>true</deployAtEnd>
-				</configuration>
-				<plugins>
-					<plugin>
-						<build>
-							<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>Sweta-HP-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release</url>
-    </repository>
-							
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>Sweta-HP-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
-
-
-
+		
 </project>
